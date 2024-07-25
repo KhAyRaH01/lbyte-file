@@ -17,65 +17,83 @@ img {
   object-fit: cover;
 }
 
-.wcontainer{
-    padding: 46px 80px;
-    justify-content: space-between;
-    gap: 104px;
-
-}
-.wtitle{
-    margin-bottom: 16px;
+.chathead{ 
     width: 100%;
+    background-color: white;
+    padding: 8px;
 }
-.wtitle h1{
+.chathead h1{
     font-family: 'Raleway';
-    font-size: 36px;
-    color: #007BFF;
-    font-weight: 600;
-    text-align: center;
-}
-
-.wlist1{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 222px;
-    padding: 20px 0 20px 0;
-}
-.wlist1 h2{
-    font-family: 'Raleway';
-    font-size: 30px;
-    color: #007BFF;
-    margin-bottom: 12px;
-}
-
-.wlist1 p{
-    color: #343A40;
-    font-family: 'Lato';
-    font-size: 14;
     font-weight: 500;
+    text-align: center;
+    color: #007BFF;
 }
 
-.wlist2{
+.convo{
+    background-color: white;
+    padding: 46px 80px;
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 28px;
+ 
+}
+
+.user{
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    justify-content: space-between;
-    gap: 222px;
-    padding: 20px 0 20px 0;
+    width: 50%;
+    align-self: flex-end;
 }
 
-.wlist2 h2{
-    font-family: 'Raleway';
-    font-size: 30px;
-    color: #007BFF;
-    margin-bottom: 12px;
-}
-
-.wlist2 p{
-    color: #343A40;
+.user p{
+    background-color: #007BFF;
+    border-radius: 8px 0px 8px 8px ;
+    padding: 12px 24px;
+    color: white;
     font-family: 'Lato';
-    font-size: 14;
-    font-weight: 500;
+    font-size: 16px;
+}
+.user img{
+    width: 48px;
+    height: 48px;
+    margin-left: 6px;
+    align-self: flex-start;
 }
 
+
+
+.bot{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.bot h6{
+    font-size: 16px ;
+    font-family: 'lato';
+    color: #343A40;
+    padding-bottom: 8px;
+}
+
+.bot p{
+    font-family: 'lato';
+    font-size: 16px;
+    color: #343A40;
+    padding-bottom: 3px;
+}
+
+.bot ol li{
+    font-size: 16px;
+    font-family: 'lato';
+    padding-bottom: 4px;
+}
+
+.bot img{
+    width: 48px;
+    height: 48px;
+    margin-right: 12px;
+    align-self: flex-start;
+}
